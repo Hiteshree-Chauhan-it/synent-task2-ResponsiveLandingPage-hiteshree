@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew Café</title>
+
+    <!-- Linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Cookie&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Dr+Sugiyama&family=Gloock&family=Handlee&family=IM+Fell+Double+Pica:ital@0;1&family=Kalam:wght@300;400;700&family=Katibeh&family=Luckiest+Guy&family=Monomakh&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Linking CSS files  -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="variables.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="features.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Dark overlay for text readability over the image -->
+      <div class="hero__overlay"></div>
+
+      <!-- Decorative coffee ring graphic (pure CSS) -->
+      <div class="hero__ring"></div>
+
+      <div class="hero__content">
+        <!-- Small label above the main title -->
+        <span class="hero__eyebrow">Est. 2018 · Artisan Coffee</span>
+
+        <!-- Main café name -->
+        <h1 class="hero__title">Brew Haven<br /><em>Café</em></h1>
+
+        <!-- Short tagline -->
+        <p class="hero__tagline">Fresh Coffee, Cozy Vibes</p>
+
+        <!-- Call-to-action button -->
+        <a href="#features" class="btn btn--primary">Explore Our Menu</a>
+      </div>
+
+      <!-- Scroll indicator arrow -->
+      <div class="hero__scroll-hint">
+        <span>↓</span>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <!-- Section heading block -->
+      <div class="section-header">
+        <span class="section-header__label">Why Choose Us</span>
+        <h2 class="section-header__title">Crafted With Care</h2>
+        <p class="section-header__sub">
+          Every cup, every corner, every smile — made just for you.
+        </p>
+      </div>
+
+      <!-- Feature cards grid -->
+      <div class="features__grid">
+        <!-- Card 1 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">☕</div>
+          <h3 class="feature-card__title">Freshly Brewed Coffee</h3>
+          <p class="feature-card__desc">
+            Single-origin beans, roasted in-house weekly and brewed to
+            perfection — one cup at a time.
+          </p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">🛋️</div>
+          <h3 class="feature-card__title">Cozy Ambience</h3>
+          <p class="feature-card__desc">
+            Warm lighting, plush seating, and slow jazz — the perfect place to
+            unwind or get inspired.
+          </p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">⚡</div>
+          <h3 class="feature-card__title">Fast Service</h3>
+          <p class="feature-card__desc">
+            Your order, ready in minutes. We respect your time as much as we
+            respect our craft.
+          </p>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="feature-card">
+          <div class="feature-card__icon">💰</div>
+          <h3 class="feature-card__title">Affordable Prices</h3>
+          <p class="feature-card__desc">
+            Premium quality shouldn't break the bank. Great coffee, great value
+            — every single day.
+          </p>
+        </article>
+      </div>
+      <!-- /.features__grid -->
+    </section>
+
+    <!-- Footer section  -->
+    <footer class="footer" id="contact">
+      <div class="footer__inner">
+        <!-- Footer brand / logo area -->
+        <div class="footer__brand">
+          <span class="footer__logo">Brew Haven</span>
+          <p class="footer__tagline">Your daily dose of warmth &amp; flavor.</p>
+        </div>
+
+        <!-- Navigation links -->
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#home" class="footer__link">Home</a>
+          <a href="#features" class="footer__link">Menu</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+
+        <!-- Social media placeholder icons -->
+        <div class="footer__social">
+          <!-- These are text/emoji placeholders; replace with real icons/links -->
+          <a href="#" class="footer__social-link" aria-label="Instagram">📷</a>
+          <a href="#" class="footer__social-link" aria-label="Facebook">📘</a>
+          <a href="#" class="footer__social-link" aria-label="Twitter/X">🐦</a>
+        </div>
+      </div>
+      <!-- /.footer__inner -->
+
+      <!-- Bottom copyright bar -->
+      <div class="footer__bottom">
+        <p>© 2025 Brew Haven Café. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
