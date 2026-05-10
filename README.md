@@ -182,7 +182,7 @@ background: url('YOUR_IMAGE_LINK') center/cover no-repeat;
 
 ## 👩‍💻 Author
 
-Developed by: YOUR_NAME
+Developed by: Hiteshree chauhan
 
 ---
 
