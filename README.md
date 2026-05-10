@@ -127,42 +127,38 @@ No installation or setup required.
 # 🖼️ Screenshots
 
 ## Hero Section - Desktop View
-File:
-```txt
-hero-dekstop.png
-```
 
-## Hero Section - Mobile View
-File:
-```txt
-hero-mobileview.png
-```
-
-## Features Section - Desktop View
-File:
-```txt
-feature-dekstop.png
-```
-
-## Features Section - Mobile View
-File:
-```txt
-feature-mobileview.png
-```
-
-## Footer - Desktop View
-File:
-```txt
-footer-dekstop.png
-```
-
-## Footer - Mobile View
-File:
-```txt
-footer-mobileview.png
-```
+![Hero Desktop](./hero-dekstop.png)
 
 ---
+
+## Hero Section - Mobile View
+
+![Hero Mobile](./hero-mobileview.png)
+
+---
+
+## Features Section - Desktop View
+
+![Features Desktop](./feature-dekstop.png)
+
+---
+
+## Features Section - Mobile View
+
+![Features Mobile](./feature-mobileview.png)
+
+---
+
+## Footer - Desktop View
+
+![Footer Desktop](./footer-dekstop.png)
+
+---
+
+## Footer - Mobile View
+
+![Footer Mobile](./footer-mobileview.png)
 
 # 🛠️ Methodology
 
